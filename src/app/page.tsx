@@ -36,7 +36,7 @@ export default function Home() {
             About Me
           </h2>
           <div className="flex flex-col md:flex-row items-center">
-            <img alt="A professional headshot of the portfolio owner" className="rounded-full w-32 h-32 md:w-48 md:h-48 mb-4 md:mb-0 md:mr-6" height="150" src="https://storage.googleapis.com/a1aa/image/dA886njQ65pXKRwTcLDKEF1jeXDKytJPXF1BN2tzC6YfelgnA.jpg" width="150" />
+            <img alt="A professional headshot of the portfolio owner" className="rounded-full w-52 h-52 md:w-50` md:h-48 mb-4 md:mb-0 md:mr-6" height="150" src="https://storage.googleapis.com/a1aa/image/dA886njQ65pXKRwTcLDKEF1jeXDKytJPXF1BN2tzC6YfelgnA.jpg" width="150" />
             <p className="text-gray-700 text-lg">
               Hello! I'm a passionate developer with experience in building web applications using React and Tailwind CSS. I love creating beautiful and functional user interfaces.
             </p>
@@ -136,7 +136,7 @@ export default function Home() {
               <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="message">
                 Message
               </label>
-              <textarea className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="message" rows="5"></textarea>
+              <textarea className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="message" rows={5}></textarea>
             </div>
             <div className="flex items-center justify-between">
               <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button">
