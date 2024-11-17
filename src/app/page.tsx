@@ -1,5 +1,10 @@
 import React from 'react';
-
+import Image from 'next/image';
+import COVID from './assets/COVID.png'
+import NIKE from './assets/NIKE.png'
+import QUIZ from './assets/QUIZ.png'
+import post from './assets/post.png'
+import portfolio  from './assets/portfolio.png'
 
 export default function Home() {
   return (
@@ -48,9 +53,9 @@ export default function Home() {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-white shadow-lg rounded-lg overflow-hidden">
-              <img alt="Screenshot of Project 1" className="w-full h-48 object-cover" height="200" src="https://storage.googleapis.com/a1aa/image/DAzZuPuAlE6bK1jfypJzscv6da0hABn12DErfpVf1EP49lgnA.jpg" width="300" />
+              <Image src ={COVID} alt="Screenshot of Project 1" className="w-full h-48 object-cover" height="200"  width="300" />
               <div className="p-4">
-                <h3 className="text-xl font-bold text-gray-800">
+                <h3 className="text-xl font-bold text-whit-800">
                   Project 1
                 </h3>
                 <p className="text-gray-600">
@@ -59,7 +64,7 @@ export default function Home() {
               </div>
             </div>
             <div className="bg-white shadow-lg rounded-lg overflow-hidden">
-              <img alt="Screenshot of Project 2" className="w-full h-48 object-cover" height="200" src="https://storage.googleapis.com/a1aa/image/8s95sSVdxo7SAZp8RoWVooWbMVpK3XW4LiFP2GJbqfgeelgnA.jpg" width="300" />
+              <Image src ={NIKE} alt="Screenshot of Project 2" className="w-full h-48 object-cover" height="200"  width="300" />
               <div className="p-4">
                 <h3 className="text-xl font-bold text-gray-800">
                   Project 2
@@ -70,7 +75,7 @@ export default function Home() {
               </div>
             </div>
             <div className="bg-white shadow-lg rounded-lg overflow-hidden">
-              <img alt="Screenshot of Project 3" className="w-full h-48 object-cover" height="200" src="https://storage.googleapis.com/a1aa/image/SLFviJ8p3K6xEV0DrE7UVTqC3C3ubylXyHb1SholKMLwvE8E.jpg" width="300" />
+              <Image src ={post} alt="Screenshot of Project 3" className="w-full h-48 object-cover" height="200"  width="300" />
               <div className="p-4">
                 <h3 className="text-xl font-bold text-gray-800">
                   Project 3
@@ -81,7 +86,7 @@ export default function Home() {
               </div>
             </div>
             <div className="bg-white shadow-lg rounded-lg overflow-hidden">
-              <img alt="Screenshot of Project 4" className="w-full h-48 object-cover" height="200" src="https://storage.googleapis.com/a1aa/image/V0e6h6ehnMvDSUuam7X7izdeEkzsp8TIhRevuEgUCLpt7LBPB.jpg" width="300" />
+              <Image src ={QUIZ} alt="Screenshot of Project 4" className="w-full h-48 object-cover" height="200"  width="300" />
               <div className="p-4">
                 <h3 className="text-xl font-bold text-gray-800">
                   Project 4
@@ -92,7 +97,7 @@ export default function Home() {
               </div>
             </div>
             <div className="bg-white shadow-lg rounded-lg overflow-hidden">
-              <img alt="Screenshot of Project 5" className="w-full h-48 object-cover" height="200" src="https://storage.googleapis.com/a1aa/image/vZab4nPZOzpZL54qusZrafYPuDa4IW3PWSEcIi8PGhhfelgnA.jpg" width="300" />
+              <Image src={portfolio} alt="Screenshot of Project 5" className="w-full h-48 object-cover" height="200"  width="300" />
               <div className="p-4">
                 <h3 className="text-xl font-bold text-gray-800">
                   Project 5
@@ -103,7 +108,7 @@ export default function Home() {
               </div>
             </div>
             <div className="bg-white shadow-lg rounded-lg overflow-hidden">
-              <img alt="Screenshot of Project 6" className="w-full h-48 object-cover" height="200" src="https://storage.googleapis.com/a1aa/image/9pqh5T2LDroGNd3ZcBBFgOdOtMibgfjsnDb4WeJfTOfn7LBPB.jpg" width="300" />
+              <Image src={} alt="Screenshot of Project 6" className="w-full h-48 object-cover" height="200" width="300" />
               <div className="p-4">
                 <h3 className="text-xl font-bold text-gray-800">
                   Project 6
@@ -149,22 +154,9 @@ export default function Home() {
       <footer className="bg-gray-800 text-white py-6">
         <div className="container mx-auto px-4 text-center">
           <p>
-            © 2023 My Portfolio. All rights reserved.
+            © 2024 Laiba Sarfraz Portfolio. All rights reserved.
           </p>
-          <div className="flex justify-center space-x-4 mt-4">
-            <a className="text-white hover:text-gray-400" href="https://github.com">
-              <i className="fab fa-github">
-              </i>
-            </a>
-            <a className="text-white hover:text-gray-400" href="https://linkedin.com">
-              <i className="fab fa-linkedin">
-              </i>
-            </a>
-            <a className="text-white hover:text-gray-400" href="https://twitter.com">
-              <i className="fab fa-twitter">
-              </i>
-            </a>
-          </div>
+         
         </div>
       </footer>
     </div>
