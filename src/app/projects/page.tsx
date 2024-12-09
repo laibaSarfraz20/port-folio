@@ -1,11 +1,11 @@
 import React from 'react';
 import Image from 'next/image';
-import COVID from '..COVID.png'
-import NIKE from '..NIKE.png'
-import QUIZ from '..QUIZ.png'
-import portfolio  from '..portfolio.png'
-import calculator from '..calculator.png'
-import ebook from '..ebook.png'
+import COVID from '../assets/COVID.png'
+import NIKE from '../assets/NIKE.png'
+import QUIZ from '../assets/QUIZ.png'
+import portfolio  from '../assets/portfolio.png'
+import calculator from '../assets/calculator.png'
+import ebook from '../assets/ebook.png'
 
 const Projects =()=>{
     return(
