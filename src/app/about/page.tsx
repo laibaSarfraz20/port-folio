@@ -1,5 +1,5 @@
 import Image from "next/image";
-import me from './assets/me.png'
+import me from '../assets/me.png'
 const About = ()=>{
     return(
 <div>
